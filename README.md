@@ -1,14 +1,31 @@
 # **CodeFightCPP**
 
+
+----------
+
+
 My CodeFight profile : [elgol](https://codefights.com/profile/elgnol)
 
-This is my C++ codes for solving [CodeFight](https://codefights.com/) tasks, which are using features from C++ 11, 14 and 17 standards. 
+This is my C++ codes for solving [CodeFight](https://codefights.com/) tasks. 
 
 ### **Company Bots Mode**
+> *Challenge engineers from top tech companies*
+
+
+----------
+
+
 Codes for each bot is archived in  folder [Company Bots](https://github.com/philong6297/CodeFightCPP/tree/master/Company%20Bots)
 
 
 ### **Head to Head Mode**
+
+> *Go Head-to-Head against your friends and strangers*
+
+
+----------
+
+
 There are 3 tasks for every matchs :
 
  - Task 1: Bugfix
@@ -18,7 +35,9 @@ There are 3 tasks for every matchs :
 
 Every day I will try to fight up to 10 matchs in this mode, so all of my codes for these matches will be update in folder [Head to Head](https://github.com/philong6297/CodeFightCPP/tree/master/Head%20to%20Head)
 
-### **C++ Libraries used**
+### **C++ Libraries and Features used**
+Using features from C++ 11, 14 and 17 standards. 
+
 The following libraries are included in [Header.h](CodeFightCPP/Header.h) :
 
 >     #include <iostream>

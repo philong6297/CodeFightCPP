@@ -8,6 +8,19 @@ My CodeFight profile : [longle](https://codefights.com/profile/longle)
 
 This is my C++ codes for solving [CodeFight](https://codefights.com/) tasks. 
 
+### **Arcade Mode**
+>*Practice your coding skills while unlocking the arcade map*
+-----------
+In Arcade mode you can learn and improve skills with these following mode:
+
+ - Intro
+ - Databases
+ - The Core
+ - Python
+ - Graphs
+
+Codes for each mode is in the subfolder with the same name in [Arcade](https://github.com/philong6297/CodeFightCPP/tree/master/Arcade)
+
 ### **Company Bots Mode**
 > *Challenge engineers from top tech companies*
 
@@ -26,7 +39,7 @@ Codes for each bot is archived in  folder [Company Bots](https://github.com/phil
 ----------
 
 
-There are 3 tasks for every matchs :
+There are 3 tasks for every matchs:
 
  - Task 1: Bugfix
  - Task 2: Recovery

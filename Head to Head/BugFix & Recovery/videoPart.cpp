@@ -36,3 +36,4 @@ std::vector<int> videoPart(std::string part, std::string total) {
 	int divisor = gcd(partTime, totalTime);
 	return std::vector<int> {partTime / divisor, totalTime / divisor};
 }
+

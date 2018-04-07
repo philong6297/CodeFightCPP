@@ -1,5 +1,6 @@
 /*
-You're given three integers, a, b and c. It is guaranteed that two of these integers are equal to each other. What is the value of the third integer?
+You're given three integers, a, b and c. It is guaranteed that two of these integers are equal to
+each other. What is the value of the third integer?
 
 Example
 
@@ -9,5 +10,5 @@ extraNumber(a, b, c) = 7.
 The two equal numbers are a and c. The third number (b) equals 7, which is the answer.
 */
 int extraNumber(int a, int b, int c) {
-	return a == b ? c : b == c ? a : b;
+    return a == b ? c : b == c ? a : b;
 }

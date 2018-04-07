@@ -1,7 +1,10 @@
 /*
-Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the distance between any two neighbouring numbers is equal (note that 0 and n - 1 are neighbouring, too).
+Consider integer numbers from 0 to n - 1 written down along the circle in such a way that the
+distance between any two neighbouring numbers is equal (note that 0 and n - 1 are neighbouring,
+too).
 
-Given n and firstNumber, find the number which is written in the radially opposite position to firstNumber.
+Given n and firstNumber, find the number which is written in the radially opposite position to
+firstNumber.
 
 Example
 
@@ -10,5 +13,5 @@ circleOfNumbers(n, firstNumber) = 7.
 */
 
 int circleOfNumbers(int n, int firstNumber) {
-	return (n / 2 + firstNumber) % n;
+    return (n / 2 + firstNumber) % n;
 }

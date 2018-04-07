@@ -1,5 +1,6 @@
 /*
-Given a string, replace each its character by the next one in the English alphabet (z would be replaced by a).
+Given a string, replace each its character by the next one in the English alphabet (z would be
+replaced by a).
 
 Example
 
@@ -8,7 +9,7 @@ alphabeticShift(inputString) = "dsbaz".
 */
 
 std::string alphabeticShift(std::string inputString) {
-	for (auto &it : inputString)
-		it = 97 + (it - 97 + 1) % 26;
-	return inputString;
+    for (auto &it : inputString)
+        it = 97 + (it - 97 + 1) % 26;
+    return inputString;
 }

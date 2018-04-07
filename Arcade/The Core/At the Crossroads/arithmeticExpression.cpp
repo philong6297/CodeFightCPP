@@ -1,5 +1,6 @@
 ﻿/*
-Consider an arithmetic expression of the form a#b=c. Check whether it is possible to replace # with one of the four signs: +, -, * or / to obtain a correct expression.
+Consider an arithmetic expression of the form a#b=c. Check whether it is possible to replace # with
+one of the four signs: +, -, * or / to obtain a correct expression.
 
 Example
 
@@ -24,8 +25,8 @@ So the answer is false.
 */
 bool arithmeticExpression(int a, int b, int c) {
 
-	if (a*b == c || a + b == c || a - b == c || (a%b == 0 && a / b == c)) {
-		return true;
-	}
-	return false;
+    if (a * b == c || a + b == c || a - b == c || (a % b == 0 && a / b == c)) {
+        return true;
+    }
+    return false;
 }

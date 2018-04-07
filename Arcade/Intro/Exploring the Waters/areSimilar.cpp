@@ -1,5 +1,6 @@
 /*
-Two arrays are called similar if one can be obtained from another by swapping at most one pair of elements in one of the arrays.
+Two arrays are called similar if one can be obtained from another by swapping at most one pair of
+elements in one of the arrays.
 
 Given two arrays a and b, check whether they are similar.
 
@@ -22,20 +23,22 @@ Any swap of any two elements either in a or in b won't make a and b equal.
 */
 
 bool areSimilar(std::vector<int> a, std::vector<int> b) {
-	int countSwap = 0;
-	for (int i = 0; i<size(a); i++)
-		if (a[i] == b[i]) a[i] = b[i] = 0, countSwap++;
-	if (!countSwap) return false;
-	countSwap = 0;
-	for (int i = 0; i<size(a); i++) {
-		if (a[i] != 0)
-		{
-			auto found = find(begin(a), end(a), b[i]);
-			if (found == end(a) || b[found - begin(a)] == 0 || b[found - begin(a)] != a[i])
-				return false;
-			a[i] = *found = 0;
-			if (++countSwap > 1) return false;
-		}
-	}
-	return true;
+    int countSwap = 0;
+    for (int i = 0; i < size(a); i++)
+        if (a[i] == b[i])
+            a[i] = b[i] = 0, countSwap++;
+    if (!countSwap)
+        return false;
+    countSwap = 0;
+    for (int i = 0; i < size(a); i++) {
+        if (a[i] != 0) {
+            auto found = find(begin(a), end(a), b[i]);
+            if (found == end(a) || b[found - begin(a)] == 0 || b[found - begin(a)] != a[i])
+                return false;
+            a[i] = *found = 0;
+            if (++countSwap > 1)
+                return false;
+        }
+    }
+    return true;
 }

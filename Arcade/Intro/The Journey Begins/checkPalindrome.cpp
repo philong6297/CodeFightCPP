@@ -11,10 +11,9 @@ For inputString = "a", the output should be
 checkPalindrome(inputString) = true.
 */
 
-bool checkPalindrome(std::string inputString)
-{
-	for (int i = 0; i<size(inputString) / 2; i++)
-		if (inputString[i] != inputString[size(inputString) - 1 - i])
-			return false;
-	return true;
+bool checkPalindrome(std::string inputString) {
+    for (int i = 0; i < size(inputString) / 2; i++)
+        if (inputString[i] != inputString[size(inputString) - 1 - i])
+            return false;
+    return true;
 }

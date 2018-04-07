@@ -9,8 +9,8 @@ differentSymbolsNaive(s) = 3.
 There are 3 different characters a, b and c.
 */
 int differentSymbolsNaive(std::string s) {
-	set<char> diffList;
-	for (auto &it : s)
-		diffList.insert(it);
-	return size(diffList);
+    set<char> diffList;
+    for (auto &it : s)
+        diffList.insert(it);
+    return size(diffList);
 }

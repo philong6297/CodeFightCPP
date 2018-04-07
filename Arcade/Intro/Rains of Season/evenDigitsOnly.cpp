@@ -10,10 +10,10 @@ evenDigitsOnly(n) = false.
 */
 
 bool evenDigitsOnly(int n) {
-	while (n)
-	{
-		if (n % 10 & 1) return false;
-		n /= 10;
-	}
-	return true;
+    while (n) {
+        if (n % 10 & 1)
+            return false;
+        n /= 10;
+    }
+    return true;
 }

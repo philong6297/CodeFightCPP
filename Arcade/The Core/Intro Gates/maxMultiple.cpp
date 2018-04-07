@@ -14,5 +14,5 @@ maxMultiple(divisor, bound) = 9.
 The largest integer divisible by 3 and not larger than 10 is 9.
 */
 int maxMultiple(int divisor, int bound) {
-	return bound / divisor * divisor;
+    return bound / divisor * divisor;
 }

@@ -8,8 +8,8 @@ allLongestStrings(inputArray) = ["aba", "vcd", "aba"].
 */
 
 std::vector<std::string> allLongestStrings(std::vector<std::string> inputArray) {
-	map<int, vector<string>> stringBySize;
-	for (auto &it : inputArray)
-		stringBySize[size(it)].push_back(it);
-	return rbegin(stringBySize)->second;
+    map<int, vector<string>> stringBySize;
+    for (auto &it : inputArray)
+        stringBySize[size(it)].push_back(it);
+    return rbegin(stringBySize)->second;
 }

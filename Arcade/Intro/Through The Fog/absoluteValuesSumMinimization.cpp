@@ -11,5 +11,5 @@ For a = [2, 4, 7], the output should be
 absoluteValuesSumMinimization(a) = 4.
 */
 int absoluteValuesSumMinimization(std::vector<int> a) {
-	return size(a) & 1 ? a[size(a) / 2] : a[size(a) / 2 - 1];
+    return size(a) & 1 ? a[size(a) / 2] : a[size(a) / 2 - 1];
 }

@@ -14,11 +14,11 @@ All possible sums of 2 consecutive elements are:
 Thus, the answer is 8.
 */
 int arrayMaxConsecutiveSum(std::vector<int> inputArray, int k) {
-	int ret = 0, temp;
-	for (int i = 0; i<size(inputArray); i++)
-		if (i<k) ret += inputArray[i], temp = ret;
-		else
-			temp = temp - inputArray[i - k] + inputArray[i],
-			ret = max(ret, temp);
-	return ret;
+    int ret = 0, temp;
+    for (int i = 0; i < size(inputArray); i++)
+        if (i < k)
+            ret += inputArray[i], temp = ret;
+        else
+            temp = temp - inputArray[i - k] + inputArray[i], ret = max(ret, temp);
+    return ret;
 }

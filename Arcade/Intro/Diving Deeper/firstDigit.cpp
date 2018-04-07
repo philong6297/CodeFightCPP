@@ -11,7 +11,7 @@ For inputString = "0ss", the output should be
 firstDigit(inputString) = '0'.
 */
 char firstDigit(std::string inputString) {
-	for (auto &it : inputString)
-		if (isdigit(it))
-			return it;
+    for (auto &it : inputString)
+        if (isdigit(it))
+            return it;
 }
